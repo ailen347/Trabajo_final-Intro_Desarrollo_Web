@@ -75,7 +75,7 @@ const producto13 = new Producto(13, 'BMW', 'X3', 2017, 450, 'camioneta', 'https:
 const producto14 = new Producto(14, 'BMW', 'X3', 2017, 450, 'camioneta', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8y7ylyqtfKGtZh-kch9jSbfnWMslY9Wd4YQ&usqp=CAU');
 /* imagenes exclusivamente de muestra. todos los derechos reservados a quien corresponda */
 
-const listaProductos = [producto1, producto2, producto3, producto4, producto5, producto6, producto7, producto8, producto9, producto10, producto11, producto12, producto13, producto14];
+const listaProductos = [producto1, producto2, producto3, producto4, producto5, producto6, producto7, producto8/* , producto9, producto10, producto11, producto12, producto13, producto14 */];
 
 function filtrarProductos() {
     const valorFiltro = document.getElementById('filtro-precio').valueAsNumber;
